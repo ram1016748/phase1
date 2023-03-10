@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phase-1 Assignement</title>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="./css/index.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9bf0a5ee3a.js" crossorigin="anonymous"></script>
+   
+</head>
+<body>
+        <!--Header Menu-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="../phase-1-project/img/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="flex-grow: 0;">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#article">Articles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact-US</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+
+<!--Carousal Start-->
+      <div id="home">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="../phase-1-project/img/2.webp" class="d-block w-100" style="max-height: 100vh;" alt="img1">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="fontColor">First slide label</h5>
+                  <p class="fontColor">Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="../phase-1-project/img/1.jpg" class="d-block w-100" style="max-height: 100vh;" alt="img2">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="">Second slide label</h5>
+                  <p class="">Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../phase-1-project/img/3.jpg" class="d-block w-100" style="max-height: 100vh;" alt="img3">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="">Third slide label</h5>
+                  <p class="">Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+      </div>
+<!--Carousal End-->
+
+<!--About US-->
+<div class="container-fluid" id="about">
+
+    <div class="about-section row">
+      <h1>About Simplilearn</h1>
+      <!-- <p>Some text about who we are and what we do.</p> -->
+      <p>Simplilearn is the world’s #1 online bootcamp and one of the world’s leading certification training providers. We partner with companies and individuals to address their unique needs, providing training and coaching that helps working professionals achieve their career goals..</p>
+    </div>
+  
+  <div>
+    <h2 style="text-align:center">Our Team</h2>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="./img/team1.jpg" alt="Jane" style="width:100%">
+          <div class="container">
+            <h2>Jane Doe</h2>
+            <p class="title">CEO & Founder</p>
+            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+            <p>jane@example.com</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="./img/team2.jpg" alt="Mike" style="width:100%">
+          <div class="container">
+            <h2>Mike Ross</h2>
+            <p class="title">Art Director</p>
+            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+            <p>mike@example.com</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="column">
+        <div class="card">
+          <img src="./img/team3.jpg" alt="John" style="width:100%">
+          <div class="container">
+            <h2>John Doe</h2>
+            <p class="title">Designer</p>
+            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+            <p>john@example.com</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+</div>
+<!--About US End-->
+
+<!--Articals -->
+<div class="background">
+    <div id="article">
+      <div class="container">
+          <h1 class="sub-title">Articles</h1>
+          <div class="article-list">
+          <div class="arts">
+              <img src="./img/telework.jpg"> 
+    
+            <br><h2>What is Telework</h2>
+              <p>Understanding the answer to "What is telework?" can help you clarify the difference between telework vs. remote work. With telework, employees typically work near the physical office. For example, you may live in the same city as your office but complete your work-related tasks from home or at another nearby location, such as co-working space. Telework can also include spending part of your working hours at a different place than the physical office.</p>
+              <a href="https://www.telework.gov/federal-community/telework-employees/telework-basics/"> <i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>  
+        
+        </div>
+              <div class="arts">
+                  <img src="./img/cloud computing.jpg">
+                  <br> <h2>What is Internet</h2>
+                  <p>The Internet is the most commonly used term in today’s world and plays a very important role in the everyday life of people. But there are many questions, answers to which people need to know. In this article, we shall help you find answers to these questions; discuss the evolution of the Internet, its usage, benefits, history and how the Internet works. 
+                  must read on to learn more about the Internet. </p>
+                  <a href="https://en.wikipedia.org/wiki/Internet" target="_blank"> <i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+            
+          </div>
+          <div class="arts">
+              <img src="./img/internet.jpg">
+              <br> <h2>What is Social media</h2>
+              <p>Social media are interactive technologies that facilitate the creation and sharing of information, ideas, interests, and other forms of expression through virtual communities and networks. While challenges to the definition of social media arise due to the variety of stand-alone and built-in social media services currently available, there are some common features </p>
+              <a href="https://en.wikipedia.org/wiki/Social_media" target="_blank"> <i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+        
+      </div>
+      
+    <div class="arts">
+      <img src="./img/consulting.jpg">
+      <br> <h2>What is Telecommunications</h2>
+      <p>Telecommunication is the transmission of information by various types of technologies over wire, radio, optical, or other electromagnetic systems.[1][2] It has its origin in the desire of humans for communication over a distance greater than that feasible with the human voice, </p>
+      <a href="https://en.wikipedia.org/wiki/Telecommunications" target="_blank"> <i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+    
+    </div>
+    <div class="arts">
+    <img src="./img/consulting.jpg">
+    <br> <h2>What is Digital Transformation </h2>
+    <p>Digital transformation (DX) is the adoption of digital technology by an organization. Common goals for its implementation are to improve efficiency, value or innovation </p>
+    <a href="https://en.wikipedia.org/wiki/Digital_transformation" target="_blank"> <i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+    
+    </div>
+          
+                  <div class="arts">
+                      <img src="./img/tech.jpg">
+                    <br><h2>What is Technology</h2>
+                      <p>Technologies are artifacts made through a systematic application of knowledge and used to reach practical goals. They are widely used in medicine, science, industry, communication, transportation, and daily life. Technologies include physical objects like utensils or machines, as well as intangible tools like software. </p>
+                      <a href="https://en.wikipedia.org/wiki/Technology" target="_blank"> <i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                  </div>
+                </div>
+                <a href="https://en.wikipedia.org/wiki/Main_Page" target="_blank" class="btn">see more</a>
+      </div>
+    </div>
+</div>
+<!--End Articls-->
+<!--Start contact us -->
+<div class="background" id="contact">
+    <div id="container-fluid">
+      <div class="container-fluid">
+          <div class="row">
+              <div class="contact-left">
+                  <h3 class="sub-title">Contact US</h3>
+                  <p><i class="fa-regular fa-paper-plane"></i>Simplilearn@LR.com</p>
+              <p><i class="fa-sharp fa-solid fa-phone-volume"></i>987654321</p>
+                  <div class="social-icons">
+                      <a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                      <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+                      <a href="https://instagram.com/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                      <a href="https://linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                  </div>
+              </div>
+                  <div class="contact-right">
+                      <form >
+                          <input type="text" name="Name" placeholder="Enter Your Full Name" required>
+                          <input type="email" name="Email" placeholder="Enter your E-mail ID" required>
+                          <textarea name="Message" rows="7" placeholder="Your Message" required></textarea>
+                          <button type="submit" class="btn btn2">Submit</button>
+                      </form>
+                  
+              </div>
+        </div>
+          <div class="row">
+          <div class="copyright">
+          <p>copyright &copy FSD. All Rights Reserved.</p>
+        </div>
+      </div>
+      </div>
+    </div>
+</div>
+<!-- end of contact us -->
+
+  <!--Script Files-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
